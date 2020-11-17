@@ -36,7 +36,7 @@ function main() {
                 return t;
             }, 0);
             //Displaying the results, which is the total number of characters divided by the total number of words submitted.
-            output.innerHTML = `The average word is <b>${(totalCharacters / data.length).toFixed(2)}</b> characters long.`;
+            output.innerHTML = `The average word in your submitted text is <b>${(totalCharacters / data.length).toFixed(2)}</b> characters long. With a total of <b>${totalCharacters}</b> characters  and <b>${data.length}</b> words in the whole body.`;
         }
     });
 }
